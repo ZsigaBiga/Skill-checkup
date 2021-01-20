@@ -126,6 +126,7 @@ h1 {
 }
 
 .nav-logo {
+    margin: 1.5rem auto;
     display: flex;
     height: max-content;
     color: var(--text-secondary);
@@ -197,7 +198,6 @@ h1 {
 
 .header-logo:hover {
     filter: grayscale(0.2);
-    filter:
 }
 
 .header-content {
