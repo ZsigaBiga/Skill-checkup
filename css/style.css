@@ -94,7 +94,7 @@ h1 {
 
 .main-header {
     display: flex;
-    width: 90%;
+    width: auto;
     height: 9vh;
     background-color: chocolate;
     padding-top: 20px;
