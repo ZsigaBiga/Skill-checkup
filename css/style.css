@@ -58,7 +58,7 @@ table {
 /*=== RESET END ===*/
 
 body {
-    background-color: rgb(255,140,0);
+    background-color: whitesmoke;
     color: black;
     margin: 0;
     padding: 0;
@@ -201,7 +201,7 @@ h1 {
 }
 
 .header-content {
-    background-color:rgb(255,140,0);
+    background-color: whitesmoke;
     width: 80%;
     height: 4rem;
     margin: 0px auto;
