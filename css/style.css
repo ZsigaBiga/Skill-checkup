@@ -62,6 +62,10 @@ body {
     color: black;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+
 }
 
 body::-webkit-scrollbar {
@@ -85,6 +89,7 @@ main {
 h1 {
     font-size: 22px;
     margin: 0px auto;
+    min-width: 2rem;
 }
 
 .transparent {
@@ -111,7 +116,7 @@ h1 {
 .navbar {
     width: 9rem;
     height: 5.75rem;
-    position: absolute;
+    position: fixed;
     background-color: var(--bg-secondary);
     transition: height 200ms ease;
 }
@@ -163,6 +168,7 @@ h1 {
 }
 
 .nav-link:hover .fa-align-left {
+    transition: color 500ms ease;
     color: red;
     filter: grayscale(0);
 }
@@ -190,10 +196,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     display: inline;
-    margin: 0px auto;
-    margin-left: 10px;
     align-items: center;
-    position: relative;
 }
 
 .header-logo:hover {
@@ -205,7 +208,23 @@ h1 {
     min-width: 85%;
     width: 85%;
     height: 4rem;
-    margin: 0px auto;
+    margin: 0px;
+    margin-right: auto;
     display: flex;
     align-items: center;
+}
+
+.header-content:hover .title {
+    animation-name: mozog;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mozog {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-5deg);}
+    50%{transform: rotate(5deg);}
+    75%{transform: rotate(-5deg);}
+    100%{transform: rotate(0deg);}
 }
