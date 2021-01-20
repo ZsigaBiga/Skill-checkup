@@ -108,8 +108,8 @@ h1 {
 }
 
 .navbar {
-    width: 12rem;
-    height: 7rem;
+    width: 12vh;
+    height: 9vh;
     position: fixed;
     background-color: var(--bg-primary);
     transition: height 200ms ease;
@@ -126,12 +126,10 @@ h1 {
 
 .nav-logo {
     display: flex;
-    height: auto;
+    height: max-content;
     color: var(--text-secondary);
     text-decoration: none;
     align-items: center;
-    margin-left: 2.5rem;
-    margin-top: 0.7rem;
 }
 
 .nav-link {
@@ -148,13 +146,13 @@ h1 {
 }
 
 .nav-link i {
-    min-width: 2rem;
-    margin-right: 1rem;
+    min-width: 1.5rem;
+    margin-right: 0.5rem;
 }
 
 .navbar:hover {
     height: 100vh;
-    width: 12rem;
+    width: 12vh;
 }
 
 .navbar:hover .nav-link {
@@ -167,6 +165,13 @@ h1 {
 
 }
 
+.navbar:hover .nav-logo {
+    animation-name: porog;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
 .header-content {
     background-color: cornflowerblue;
     width: 80%;
@@ -176,4 +181,9 @@ h1 {
     padding: 4px;
     align-items: center;
     vertical-align: middle;
+}
+
+@keyframes porog {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(180deg);}
 }
