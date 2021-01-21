@@ -1,0 +1,37 @@
+:root {
+    --text-primary: #010100;
+    --background-primary: #FAFAFA;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    font-size: 150%;
+    background-color:  #fadadc;
+}
+
+button {
+    width: 20%;
+    height: 1.8rem;
+}
+
+input {
+    width: 25%;
+    font-size: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color:  #fadadd;
+    position: relative;
+}
+
+#start-gomb {
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+div {
+    display: inline;
+}

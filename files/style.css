@@ -250,7 +250,7 @@ h1 {
 
 .header-content {
     background-color: whitesmoke;
-    min-width: 85%;
+    min-width: 80%;
     width: 85%;
     height: 4rem;
     margin: 0px;
@@ -264,6 +264,57 @@ h1 {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+
+/*.proj-container {
+    margin: 0px auto;
+    width: 70%;
+}*/
+
+.intro {
+    width: 100%;
+    margin: 1rem auto;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-indent: 5px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 10rem;
+    float: left;
+}
+
+.proj-header {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: wavy;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.crt-proj {
+    width: 100%;
+    height: 30rem;
+    min-width: 10rem;
+    display: flex;
+    border: 3px solid black;
+    margin: 0px auto;
+}
+
+.main-posts {
+    margin: 0px auto;
 }
 
 @keyframes mozog {
