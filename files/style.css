@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/*Don't forget to create comments to show what section you made/edited! (With an - END suffix)*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -55,8 +56,9 @@ table {
     --bg-secondary: #141418;
 }
 
-/*=== RESET END ===*/
+/*=== RESET - END ===*/
 
+/*=== MAIN ELEMENTS ===*/
 body {
     background-color: whitesmoke;
     color: black;
@@ -91,17 +93,9 @@ h1 {
     margin: 0px auto;
     min-width: 2rem;
 }
+/*=== MAIN ELEMENTS - END ===*/
 
-.main-header {
-    display: flex;
-    width: auto;
-    height: 4.5rem;
-    background-color: var(--bg-secondary);
-    padding-top: 20px;
-    padding-right: 10px;
-    margin-left: 8rem;
-}
-
+/*=== NAV MENU ===*/
 .navbar {
     width: 9rem;
     height: 5.75rem;
@@ -177,7 +171,20 @@ h1 {
     display: block;
 
 }
+/*=== NAV MENU - END ===*/
 
+/*=== HEADER ===*/
+.main-header {
+    display: flex;
+    width: auto;
+    height: 4.5rem;
+    background-color: var(--bg-secondary);
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-left: 8rem;
+}
+
+/*=== HEADER LOGO ===*/
 .hover-box {
     min-width: 69px;
     width: 64px;
@@ -247,7 +254,9 @@ h1 {
 .hover-box:hover .logo-item {
     display: flex;
 }
+/*=== HEADER LOGO - END ===*/
 
+/*=== HEADER CONTENT ===*/
 .header-content {
     background-color: whitesmoke;
     min-width: 80%;
@@ -265,12 +274,16 @@ h1 {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+/*=== HEADER CONTENT - END ===*/
+/*=== HEADER - END ===*/
 
 /*.proj-container {
     margin: 0px auto;
     width: 70%;
-}*/
+}*/ 
+/* Might need it later when more projects are added, but for now it's fine without this*/
 
+/*=== INTRODUCTION ===*/
 .intro {
     width: 100%;
     margin: 1rem auto;
@@ -292,6 +305,12 @@ h1 {
     border-radius: 10rem;
     float: left;
 }
+/*=== INTRODUCTION - END ===*/
+
+/*=== PROJECT POSTS ===*/
+.main-posts {
+    margin: 0px auto;
+}
 
 .proj-header {
     width: 100%;
@@ -312,10 +331,7 @@ h1 {
     border: 3px solid black;
     margin: 0px auto;
 }
-
-.main-posts {
-    margin: 0px auto;
-}
+/*=== PROJECT POSTS - END ===*/
 
 @keyframes mozog {
     0%{transform: rotate(0deg);}
