@@ -195,7 +195,7 @@ h1 {
 
 .header-logo {
     border-radius: 64px;
-    background-image: url('/Images/fire.png');
+    background-image: url('../Images/fire.png');
     background-color: white;
     min-width: 64px;
     width: 64px;
