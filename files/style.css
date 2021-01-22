@@ -277,12 +277,6 @@ h1 {
 /*=== HEADER CONTENT - END ===*/
 /*=== HEADER - END ===*/
 
-/*.proj-container {
-    margin: 0px auto;
-    width: 70%;
-}*/ 
-/* Might need it later when more projects are added, but for now it's fine without this*/
-
 /*=== INTRODUCTION ===*/
 .intro {
     width: 100%;
@@ -308,6 +302,13 @@ h1 {
 /*=== INTRODUCTION - END ===*/
 
 /*=== PROJECT POSTS ===*/
+.proj-container {
+    margin: 5rem auto;
+    width: 100%;
+    height: auto;
+} 
+
+
 .main-posts {
     margin: 0px auto;
 }
