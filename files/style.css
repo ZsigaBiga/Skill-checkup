@@ -262,7 +262,7 @@ h1 {
     min-width: 80%;
     width: 85%;
     height: 4rem;
-    margin: 0px;
+    margin: 0px auto;
     margin-right: auto;
     display: flex;
     align-items: center;
